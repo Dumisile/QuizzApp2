@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEFA"
+    tools:context="com.example.dumisile.quizzapp.MovieSolution">
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/movies"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUSIC QUIZZ SOLUTIONS"
+        android:fontFamily="cursive"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#6A5ACD"
+        android:textAlignment="center"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/txtResults"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:fontFamily="cursive"
+        android:textSize="22dp"
+        android:textColor="#556B2F"
+        android:layout_below="@+id/imageView9"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Janet Jackson"
+        android:textColor="#800080"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView80"
+        android:layout_toLeftOf="@+id/imageView9"
+        android:layout_toStartOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Sheriff Troy"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView82"
+        android:layout_alignLeft="@+id/textView82"
+        android:layout_alignStart="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. The Pursuit of Happyness"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView83"
+        android:layout_alignLeft="@+id/textView83"
+        android:layout_alignStart="@+id/textView83" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Temptation"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView84"
+        android:layout_alignLeft="@+id/textView84"
+        android:layout_alignStart="@+id/textView84" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Empire"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView85"
+        android:layout_alignLeft="@+id/textView85"
+        android:layout_alignStart="@+id/textView85" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Beyonce Knowles"
+        android:textColor="#800080"
+        android:layout_alignLeft="@+id/textView86"
+        android:layout_alignStart="@+id/textView86"
+        android:layout_below="@+id/textView86" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. Stomp the Yard"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView87"
+        android:layout_alignLeft="@+id/textView87"
+        android:layout_alignStart="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8. Winnie"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView88"
+        android:layout_alignLeft="@+id/textView88"
+        android:layout_alignStart="@+id/textView88" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9. Jill Scott"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView89"
+        android:layout_alignLeft="@+id/textView89"
+        android:layout_alignStart="@+id/textView89" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10. Charlize Theron"
+        android:textColor="#800080"
+        android:layout_below="@+id/textView90"
+        android:layout_alignLeft="@+id/textView90"
+        android:layout_alignStart="@+id/textView90" />
+</RelativeLayout>

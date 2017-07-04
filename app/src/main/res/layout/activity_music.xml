@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DBC8F"
+    tools:context="com.example.dumisile.quizzapp.Music">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/track" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:text="LET'S SEE HOW WELL YOU KNOW MUSIC..."
+                android:textColor="#8B008B"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"/>
+
+
+            <RadioGroup
+                android:id="@+id/groupOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1. South Africa's afro pop group which lost their third member in a road rage incident... "
+                    android:textColor="#6B8E23"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Malaika"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The soil"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/rad1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mafikizolo"
+                    android:textColor="#800080" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2. Which album was released by Malaika in October 2008?"
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/rad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mmatswale"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Vuthelani"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sekunjalo"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3. You thought that my pride was gone... Which of Lira's track contain these line?"
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Soul in mind"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Something inside so strong"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="With my eyes"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4. Cassper Nyovest's biological name is..."
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Refiloe"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Thabiso"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lebogang"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5. 16th Metro FM music awards Song of the year award was taken by:"
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kwesta-Ngudu"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Babes Wodumo-Wololo"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Amanda Black-Amazulu"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupSix"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6. Who featured Black Coffee in the In Common track?"
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Miles"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Alicia Keys"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tekno"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupSeven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7. You are the air that i breathe... Which of Dr Tumi's track include these line?"
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="We love you Lord"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="You are here"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nothing without you"
+                    android:textColor="#800080" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupEight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8. South Africa's biggest gospel star of 1990s..."
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hlengiwe Mhlaba"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Rebbeca Malope"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Benjamin Dube"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupNine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9. Who sings the Run Away track?"
+                    android:textStyle="bold"
+                    android:textColor="#6B8E23"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tinashe"
+                    android:textColor="#800080"/>
+
+                <RadioButton
+                    android:id="@+id/radI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cici"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tiwa Savage"
+                    android:textColor="#800080"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupTen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10.Vusi Nova and Beyonce both have this track in their albums."
+                    android:textColor="#6B8E23"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="I'd rather go blind"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pretty hurts"
+                    android:textColor="#800080" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Broken hearted girl"
+                    android:textColor="#800080" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#6B8E23"
+                android:text="SUBMIT"
+                android:textColor="#8DBC8F" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

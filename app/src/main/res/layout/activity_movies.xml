@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEFA"
+    tools:context="com.example.dumisile.quizzapp.movies">
+
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginLeft="12dp"
+         android:layout_marginStart="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rename" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IT'S MOVIE TIME...!!!"
+                android:fontFamily="cursive"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#6A5ACD"
+                android:textAlignment="center"/>
+
+            <RadioGroup
+                android:id="@+id/groupA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1. Which RnB star is featured in For colored Girls?"
+                    android:textColor="#4169E1"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Thandie Newton"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Janet Jackson"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kimberly Elise"
+                    android:textColor="#7B68EE" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2. One man's trash is another man's treasure... who said this line in Why did i get married?"
+                    android:textColor="#4169E1"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gavin"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Marcus"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sheriff Troy"
+                    android:textColor="#7B68EE" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3. A movie that cast Will Smith and his son Jaden Smith..."
+                    android:textColor="#4169E1"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:id="@+id/rad3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The pursuit of happyness"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Karate Kid"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="After Earth"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4. Tyler Perry's movie:"
+                    android:textColor="#4169E1"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/rad4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Temptation"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The Best Man Holiday"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Friends with Benefits"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5. Taraji P.Henson won Best Actress in a Drama Series-2015 Critics' Choice TV Awards for her Cookie Lyon's character in... "
+                    android:textColor="#4169E1"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Suits"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/rad5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Empire"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Game of Thrones"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6. She plays Sharon in the movie Obsessed..."
+                    android:textColor="#4169E1"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rad6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Beyonce Knowles"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ali Larter"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Angela Thompson"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupG"
+                android:layout_width="385dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7. A dance movie that cast Chris Brown and Neyo:"
+                    android:textColor="#4169E1"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Step up"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/rad7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Stomp The Yard"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Center Stage"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8. Jennifer Hudson and Terrence Howard star in this South African movie..."
+                    android:textColor="#4169E1"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/rad8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Winnie"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Long Walk to Freedom"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Goodbye Bafana"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9. She played Mma Ramotswe in No.1 Ladies' Detective Agency in Botswana..."
+                    android:textColor="#4169E1"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/rad9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jill Scott"
+                    android:textColor="#7B68EE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Anika Noni Rose"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lucian Msamati"
+                    android:textColor="#7B68EE"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10. South African female actor who made it internationally."
+                    android:textColor="#4169E1"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lovita Alize"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sierra Leone"
+                    android:textColor="#7B68EE"/>
+
+                <RadioButton
+                    android:id="@+id/rad10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Charlize Theron"
+                    android:textColor="#7B68EE" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#4169E1"
+                android:text="SUBMIT"
+                android:textColor="#87CEFA" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
